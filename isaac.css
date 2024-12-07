@@ -1,4 +1,264 @@
-.ropeless-fishing-gear-demonstrator-container1 {
+.feature-card2-wrapper {
+  display: contents;
+}
+.feature-card2-feature-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.feature-card2-icon1 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+.feature-card2-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card2-text1 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .feature-card2-feature-card {
+    flex-direction: row;
+  }
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+
+.feature-card2-wrapper-hip5 {
+  display: contents;
+}
+.feature-card2-feature-card1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.feature-card2-icon3 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+.feature-card2-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card2-text3 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .feature-card2-feature-card1 {
+    flex-direction: row;
+  }
+  .feature-card2-container1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card2-container1 {
+    flex-direction: column;
+  }
+}
+
+.feature-card2-wrapper-d4nz {
+  display: contents;
+}
+.feature-card2-feature-card2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.feature-card2-icon5 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+.feature-card2-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card2-text5 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .feature-card2-feature-card2 {
+    flex-direction: row;
+  }
+  .feature-card2-container2 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card2-container2 {
+    flex-direction: column;
+  }
+}
+
+.feature-card2-wrapper-ukze {
+  display: contents;
+}
+.feature-card2-feature-card3 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.feature-card2-icon7 {
+  fill: var(--dl-color-gray-500);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+.feature-card2-container3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card2-text7 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .feature-card2-feature-card3 {
+    flex-direction: row;
+  }
+  .feature-card2-container3 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card2-container3 {
+    flex-direction: column;
+  }
+}
+
+.isaac-container1 {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +266,7 @@
   align-items: center;
   flex-direction: column;
 }
-.ropeless-fishing-gear-demonstrator-navbar-container {
+.isaac-navbar-container {
   width: 100%;
   display: flex;
   z-index: 100;
@@ -17,7 +277,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.ropeless-fishing-gear-demonstrator-navbar {
+.isaac-navbar {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -31,28 +291,28 @@
   justify-content: space-between;
   background-color: rgba(188, 1, 255, 0);
 }
-.ropeless-fishing-gear-demonstrator-heading1 {
+.isaac-heading1 {
   text-decoration: none;
 }
-.ropeless-fishing-gear-demonstrator-links-container1 {
+.isaac-links-container1 {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
 }
-.ropeless-fishing-gear-demonstrator-link1 {
+.isaac-link1 {
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.ropeless-fishing-gear-demonstrator-burger-menu {
+.isaac-burger-menu {
   display: none;
   align-items: flex-start;
   flex-direction: column;
 }
-.ropeless-fishing-gear-demonstrator-icon1 {
+.isaac-icon10 {
   width: 36px;
   height: 36px;
 }
-.ropeless-fishing-gear-demonstrator-mobile-menu {
+.isaac-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -64,7 +324,7 @@
   flex-direction: column;
   background-color: #fff;
 }
-.ropeless-fishing-gear-demonstrator-container2 {
+.isaac-container2 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -73,33 +333,33 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.ropeless-fishing-gear-demonstrator-heading2 {
+.isaac-heading2 {
   text-decoration: none;
 }
-.ropeless-fishing-gear-demonstrator-close-menu {
+.isaac-close-menu {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.ropeless-fishing-gear-demonstrator-icon3 {
+.isaac-icon12 {
   width: 24px;
   height: 24px;
 }
-.ropeless-fishing-gear-demonstrator-links-container2 {
+.isaac-links-container2 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.ropeless-fishing-gear-demonstrator-link3 {
+.isaac-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.ropeless-fishing-gear-demonstrator-link4 {
+.isaac-link4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.ropeless-fishing-gear-demonstrator-section-separator1 {
+.isaac-section-separator1 {
   width: 100%;
   height: 1px;
   display: flex;
@@ -108,7 +368,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.ropeless-fishing-gear-demonstrator-hero1 {
+.isaac-hero {
   display: flex;
   padding: 48px;
   align-self: center;
@@ -117,39 +377,34 @@
   flex-direction: column;
   justify-content: center;
 }
-.ropeless-fishing-gear-demonstrator-container3 {
+.isaac-container3 {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.ropeless-fishing-gear-demonstrator-text12 {
+.isaac-text12 {
   font-size: 3rem;
 }
-.ropeless-fishing-gear-demonstrator-text15 {
-  margin-top: var(--dl-space-space-doubleunit);
+.isaac-icon14 {
+  width: 5%;
+  height: 5%;
+}
+.isaac-icon16 {
+  width: 5%;
+  height: 5%;
+}
+.isaac-text14 {
+  margin-top: 32px;
   text-align: center;
-  padding-left: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-doubleunit);
+  padding-left: 48px;
+  margin-bottom: 32px;
+  padding-right: 48px;
 }
-.ropeless-fishing-gear-demonstrator-container4 {
-  margin: var(--dl-space-space-doubleunit);
-  display: flex;
-  padding: var(--dl-space-space-doubleunit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
+.isaac-image {
+  width: 45rem;
+  margin-top: 32px;
 }
-.ropeless-fishing-gear-demonstrator-system-drawing {
-  width: 20%;
-  margin: var(--dl-space-space-tripleunit);
-}
-.ropeless-fishing-gear-demonstrator-cad-model {
-  width: 30%;
-  height: auto;
-  margin: var(--dl-space-space-tripleunit);
-}
-.ropeless-fishing-gear-demonstrator-section-separator2 {
+.isaac-section-separator2 {
   width: 100%;
   height: 1px;
   display: flex;
@@ -158,46 +413,24 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.ropeless-fishing-gear-demonstrator-hero2 {
-  display: flex;
-  padding: var(--dl-space-space-doubleunit);
-  align-self: stretch;
-  min-height: auto;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.ropeless-fishing-gear-demonstrator-video {
-  height: auto;
-  align-self: stretch;
-}
-.ropeless-fishing-gear-demonstrator-section-separator3 {
-  width: 100%;
-  height: 1px;
-  display: flex;
-  margin-top: var(--dl-space-space-tenunits);
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: var(--dl-color-gray-900);
-}
-.ropeless-fishing-gear-demonstrator-features {
+.isaac-features {
   width: 100%;
   display: flex;
   padding: 48px;
   max-width: 1400px;
   flex-direction: column;
 }
-.ropeless-fishing-gear-demonstrator-text26 {
+.isaac-text26 {
   font-size: 3rem;
   margin-bottom: 48px;
 }
-.ropeless-fishing-gear-demonstrator-container5 {
+.isaac-container4 {
   width: 100%;
   display: grid;
   grid-gap: 32px;
   grid-template-columns: 1fr 1fr;
 }
-.ropeless-fishing-gear-demonstrator-section-separator4 {
+.isaac-section-separator3 {
   width: 100%;
   height: 1px;
   display: flex;
@@ -206,7 +439,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.ropeless-fishing-gear-demonstrator-testimonial-card {
+.isaac-testimonial-card {
   width: auto;
   display: flex;
   padding: 32px;
@@ -217,18 +450,18 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.ropeless-fishing-gear-demonstrator-icon5 {
+.isaac-icon18 {
   width: 96px;
   flex-shrink: 0;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.ropeless-fishing-gear-demonstrator-text29 {
+.isaac-text29 {
   color: var(--dl-color-gray-500);
   font-size: 1.15rem;
   padding-top: 48px;
   padding-bottom: 48px;
 }
-.ropeless-fishing-gear-demonstrator-profile {
+.isaac-profile {
   width: auto;
   display: flex;
   margin-top: auto;
@@ -242,7 +475,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.ropeless-fishing-gear-demonstrator-container6 {
+.isaac-container5 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -250,127 +483,117 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.ropeless-fishing-gear-demonstrator-dean-in-croatia {
+.isaac-dean-in-croatia {
   width: 30%;
   height: auto;
   padding: var(--dl-space-space-unit);
 }
-.ropeless-fishing-gear-demonstrator-container7 {
+.isaac-container6 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.ropeless-fishing-gear-demonstrator-text30 {
+.isaac-text30 {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
 }
-.ropeless-fishing-gear-demonstrator-text31 {
+.isaac-text31 {
   color: var(--dl-color-gray-500);
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
 }
 @media(max-width: 991px) {
-  .ropeless-fishing-gear-demonstrator-heading1 {
+  .isaac-heading1 {
     text-align: center;
   }
-  .ropeless-fishing-gear-demonstrator-heading2 {
+  .isaac-heading2 {
     text-align: center;
   }
-  .ropeless-fishing-gear-demonstrator-hero1 {
+  .isaac-hero {
     flex-direction: column;
   }
-  .ropeless-fishing-gear-demonstrator-container3 {
+  .isaac-container3 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: 32px;
   }
-  .ropeless-fishing-gear-demonstrator-text12 {
+  .isaac-text12 {
     text-align: center;
   }
-  .ropeless-fishing-gear-demonstrator-text15 {
+  .isaac-text14 {
     text-align: center;
   }
-  .ropeless-fishing-gear-demonstrator-hero2 {
-    flex-direction: column;
+  .isaac-image {
+    width: 80%;
   }
-  .ropeless-fishing-gear-demonstrator-icon5 {
+  .isaac-icon18 {
     height: 96px;
   }
-  .ropeless-fishing-gear-demonstrator-profile {
+  .isaac-profile {
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
 }
 @media(max-width: 767px) {
-  .ropeless-fishing-gear-demonstrator-navbar {
+  .isaac-navbar {
     position: relative;
   }
-  .ropeless-fishing-gear-demonstrator-links-container1 {
+  .isaac-links-container1 {
     display: none;
   }
-  .ropeless-fishing-gear-demonstrator-burger-menu {
+  .isaac-burger-menu {
     display: flex;
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-tripleunit);
     border-radius: var(--dl-radius-radius-radius4);
     background-color: var(--dl-color-gray-black);
   }
-  .ropeless-fishing-gear-demonstrator-icon1 {
+  .isaac-icon10 {
     fill: var(--dl-color-gray-white);
   }
-  .ropeless-fishing-gear-demonstrator-hero1 {
+  .isaac-hero {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .ropeless-fishing-gear-demonstrator-text15 {
+  .isaac-text14 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .ropeless-fishing-gear-demonstrator-hero2 {
+  .isaac-features {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .ropeless-fishing-gear-demonstrator-features {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  .ropeless-fishing-gear-demonstrator-container5 {
+  .isaac-container4 {
     grid-template-columns: 1fr;
   }
 }
 @media(max-width: 479px) {
-  .ropeless-fishing-gear-demonstrator-burger-menu {
+  .isaac-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
-  .ropeless-fishing-gear-demonstrator-hero1 {
+  .isaac-hero {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
   }
-  .ropeless-fishing-gear-demonstrator-container3 {
+  .isaac-container3 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .ropeless-fishing-gear-demonstrator-hero2 {
+  .isaac-features {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
   }
-  .ropeless-fishing-gear-demonstrator-features {
-    padding-top: 32px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: 32px;
-  }
-  .ropeless-fishing-gear-demonstrator-testimonial-card {
+  .isaac-testimonial-card {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .ropeless-fishing-gear-demonstrator-profile {
+  .isaac-profile {
     justify-content: center;
   }
 }
