@@ -1,0 +1,23 @@
+.gallery-card-gallery-card {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card-text1 {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery-card-text2 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+@media(max-width: 767px) {
+  .gallery-card-gallery-card {
+    flex-direction: column;
+  }
+}
