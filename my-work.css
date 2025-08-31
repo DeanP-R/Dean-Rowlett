@@ -434,3 +434,17 @@
     padding-bottom: 32px;
   }
 }
+
+/* Uniform size for gallery images */
+.gallery-card1-image,
+.gallery-card1-image1,
+.gallery-card1-image2,
+.gallery-card1-image3,
+.gallery-card2mta,
+.gallery-card3-robotwars,
+.gallery-card4hw-racing {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
