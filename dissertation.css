@@ -764,3 +764,27 @@
     justify-content: center;
   }
 }
+/* Dissertation: two-chart gallery */
+.diss-two {
+  max-width: 1100px;
+  margin: var(--dl-space-space-fiveunits) auto;
+  padding: 0 var(--dl-space-space-doubleunit);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--dl-space-space-fourunits);
+}
+
+.diss-two img {
+  width: 100%;
+  aspect-ratio: 16 / 9;                 /* equal visual size */
+  height: auto;
+  object-fit: contain;                   /* don't crop diagrams */
+  background: var(--dl-color-elevated);  /* subtle letterbox */
+  border: 1px solid var(--dl-color-border);
+  border-radius: var(--dl-radius-radius8);
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .diss-two { grid-template-columns: 1fr; }
+}

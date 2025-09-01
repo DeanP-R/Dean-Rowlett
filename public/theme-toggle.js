@@ -1,27 +1,19 @@
-(function() {
-  const applyTheme = (theme) => {
-    document.body.dataset.theme = theme;
-    localStorage.setItem('theme', theme);
-  };
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleSwitch = document.getElementById('theme-toggle');
 
+  // Load theme from local storage
   const currentTheme = localStorage.getItem('theme') || 'dark';
-  applyTheme(currentTheme);
+  document.documentElement.setAttribute('data-theme', currentTheme);
 
-  const button = document.createElement('button');
-  button.id = 'theme-toggle';
-  button.textContent = 'Toggle Theme';
-  Object.assign(button.style, {
-    position: 'fixed',
-    top: '1rem',
-    right: '1rem',
-    padding: '0.5rem 1rem',
-    cursor: 'pointer',
-    zIndex: '1000'
-  });
-  document.body.appendChild(button);
+  // Set checkbox to match saved theme
+  if (currentTheme === 'dark') {
+    toggleSwitch.checked = true;
+  }
 
-  button.addEventListener('click', () => {
-    const newTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
-    applyTheme(newTheme);
+  // Toggle theme on checkbox change
+  toggleSwitch.addEventListener('change', function () {
+    const theme = toggleSwitch.checked ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
   });
-})();
+});

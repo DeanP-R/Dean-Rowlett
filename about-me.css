@@ -234,3 +234,40 @@
     padding-bottom: 32px;
   }
 }
+/* ==== About page photo: make it a sensible, responsive size ==== */
+/* Target common Teleport names used on the About page image */
+.about-me-image1,
+.about-me .about-me-image1,
+.about-me img.home-image1 {
+  width: clamp(260px, 38vw, 520px) !important;  /* grows on wide screens, capped */
+  height: auto !important;
+  display: block;
+  border-radius: var(--dl-radius-radius8);
+}
+
+/* If text + photo are side-by-side, ensure the row layout has room */
+.about-me-row,
+.about-hero,
+.about-me .home-hero {
+  display: grid;
+  grid-template-columns: 1.6fr min(38vw, 520px);
+  gap: var(--dl-space-space-fourunits);
+  align-items: start;
+  max-width: var(--dl-size-size-maxcontent);
+  margin: 0 auto;
+  padding: var(--dl-space-space-fourunits) var(--dl-space-space-doubleunit);
+}
+
+/* Stack nicely on mobile */
+@media (max-width: 900px) {
+  .about-me-row,
+  .about-hero,
+  .about-me .home-hero {
+    grid-template-columns: 1fr;
+  }
+  .about-me-image1,
+  .about-me .about-me-image1,
+  .about-me img.home-image1 {
+    width: 100% !important;
+  }
+}
